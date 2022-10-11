@@ -6,4 +6,5 @@ if [ -f /aafirstboot ]; then /aafirstboot start ; fi
 /sbin/ifconfig wlan0 192.168.1.1
 /bin/systemctl restart hostapd
 /bin/systemctl restart dnsmasq
+/bin/systemctl restart stella_robot
 exit 0
